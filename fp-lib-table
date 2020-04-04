@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name MX_Alps_Hybrid)(type KiCad)(uri "D:/Programs/GitHub/Downloaded Libraries/MX_Alps_Hybrid/MX_Alps_Hybrid.pretty")(options "")(descr ""))
+  (lib (name promicro)(type KiCad)(uri "D:/Programs/GitHub/Downloaded Libraries/ProMicroKiCad/promicro.pretty")(options "")(descr ""))
+)
