@@ -1,0 +1,317 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L promicro:ProMicro U1
+U 1 1 5E88BA59
+P 2100 2500
+F 0 "U1" H 2100 3537 60  0000 C CNN
+F 1 "ProMicro" H 2100 3431 60  0000 C CNN
+F 2 "promicro:ProMicro" H 2200 1450 60  0001 C CNN
+F 3 "" H 2200 1450 60  0000 C CNN
+	1    2100 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX3
+U 1 1 5E88C249
+P 5450 2350
+F 0 "MX3" H 5483 2573 60  0000 C CNN
+F 1 "MX-NoLED" H 5483 2499 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 4825 2325 60  0001 C CNN
+F 3 "" H 4825 2325 60  0001 C CNN
+	1    5450 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D3
+U 1 1 5E88D2AD
+P 5300 2600
+F 0 "D3" V 5346 2532 50  0000 R CNN
+F 1 "SOD27" V 5255 2532 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" V 5300 2600 50  0001 C CNN
+F 3 "~" V 5300 2600 50  0001 C CNN
+	1    5300 2600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5300 2500 5400 2500
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX4
+U 1 1 5E88F90E
+P 5450 2900
+F 0 "MX4" H 5483 3123 60  0000 C CNN
+F 1 "MX-NoLED" H 5483 3049 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 4825 2875 60  0001 C CNN
+F 3 "" H 4825 2875 60  0001 C CNN
+	1    5450 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D4
+U 1 1 5E88F914
+P 5300 3150
+F 0 "D4" V 5346 3082 50  0000 R CNN
+F 1 "SOD27" V 5255 3082 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" V 5300 3150 50  0001 C CNN
+F 3 "~" V 5300 3150 50  0001 C CNN
+	1    5300 3150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5300 3050 5400 3050
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX5
+U 1 1 5E8904A7
+P 5450 3450
+F 0 "MX5" H 5483 3673 60  0000 C CNN
+F 1 "MX-NoLED" H 5483 3599 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 4825 3425 60  0001 C CNN
+F 3 "" H 4825 3425 60  0001 C CNN
+	1    5450 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D5
+U 1 1 5E8904AD
+P 5300 3700
+F 0 "D5" V 5346 3632 50  0000 R CNN
+F 1 "SOD27" V 5255 3632 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" V 5300 3700 50  0001 C CNN
+F 3 "~" V 5300 3700 50  0001 C CNN
+	1    5300 3700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5300 3600 5400 3600
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX6
+U 1 1 5E891726
+P 5450 4000
+F 0 "MX6" H 5483 4223 60  0000 C CNN
+F 1 "MX-NoLED" H 5483 4149 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 4825 3975 60  0001 C CNN
+F 3 "" H 4825 3975 60  0001 C CNN
+	1    5450 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D6
+U 1 1 5E89172C
+P 5300 4250
+F 0 "D6" V 5346 4182 50  0000 R CNN
+F 1 "SOD27" V 5255 4182 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" V 5300 4250 50  0001 C CNN
+F 3 "~" V 5300 4250 50  0001 C CNN
+	1    5300 4250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5300 4150 5400 4150
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX7
+U 1 1 5E8917CA
+P 5450 4550
+F 0 "MX7" H 5483 4773 60  0000 C CNN
+F 1 "MX-NoLED" H 5483 4699 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 4825 4525 60  0001 C CNN
+F 3 "" H 4825 4525 60  0001 C CNN
+	1    5450 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D7
+U 1 1 5E8917D0
+P 5300 4800
+F 0 "D7" V 5346 4732 50  0000 R CNN
+F 1 "SOD27" V 5255 4732 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" V 5300 4800 50  0001 C CNN
+F 3 "~" V 5300 4800 50  0001 C CNN
+	1    5300 4800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5300 4700 5400 4700
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX1
+U 1 1 5E891EF8
+P 5450 1250
+F 0 "MX1" H 5483 1473 60  0000 C CNN
+F 1 "MX-NoLED" H 5483 1399 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 4825 1225 60  0001 C CNN
+F 3 "" H 4825 1225 60  0001 C CNN
+	1    5450 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D1
+U 1 1 5E891EFE
+P 5300 1500
+F 0 "D1" V 5346 1432 50  0000 R CNN
+F 1 "SOD27" V 5255 1432 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" V 5300 1500 50  0001 C CNN
+F 3 "~" V 5300 1500 50  0001 C CNN
+	1    5300 1500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5300 1400 5400 1400
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX8
+U 1 1 5E892461
+P 5450 5100
+F 0 "MX8" H 5483 5323 60  0000 C CNN
+F 1 "MX-NoLED" H 5483 5249 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 4825 5075 60  0001 C CNN
+F 3 "" H 4825 5075 60  0001 C CNN
+	1    5450 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D8
+U 1 1 5E892467
+P 5300 5350
+F 0 "D8" V 5346 5282 50  0000 R CNN
+F 1 "SOD27" V 5255 5282 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" V 5300 5350 50  0001 C CNN
+F 3 "~" V 5300 5350 50  0001 C CNN
+	1    5300 5350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5300 5250 5400 5250
+$Comp
+L Device:D_Small D2
+U 1 1 5E892A9C
+P 5300 2050
+F 0 "D2" V 5346 1982 50  0000 R CNN
+F 1 "SOD27" V 5255 1982 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" V 5300 2050 50  0001 C CNN
+F 3 "~" V 5300 2050 50  0001 C CNN
+	1    5300 2050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5300 1950 5400 1950
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX2
+U 1 1 5E892A96
+P 5450 1800
+F 0 "MX2" H 5483 2023 60  0000 C CNN
+F 1 "MX-NoLED" H 5483 1949 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 4825 1775 60  0001 C CNN
+F 3 "" H 4825 1775 60  0001 C CNN
+	1    5450 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5600 1000 5600 1200
+Connection ~ 5600 1200
+Wire Wire Line
+	5600 1200 5600 1750
+Connection ~ 5600 1750
+Wire Wire Line
+	5600 1750 5600 2300
+Connection ~ 5600 2300
+Wire Wire Line
+	5600 2300 5600 2850
+Connection ~ 5600 2850
+Wire Wire Line
+	5600 2850 5600 3400
+Connection ~ 5600 3400
+Wire Wire Line
+	5600 3400 5600 3950
+Connection ~ 5600 3950
+Wire Wire Line
+	5600 3950 5600 4500
+Connection ~ 5600 4500
+Wire Wire Line
+	5600 4500 5600 5050
+Wire Wire Line
+	5300 5450 5100 5450
+Wire Wire Line
+	5300 4900 5100 4900
+Wire Wire Line
+	5300 4350 5100 4350
+Wire Wire Line
+	5300 3800 5100 3800
+Wire Wire Line
+	5300 3250 5100 3250
+Wire Wire Line
+	5300 2700 5100 2700
+Wire Wire Line
+	5300 2150 5100 2150
+Wire Wire Line
+	5300 1600 5100 1600
+Text GLabel 2800 1850 2    50   Input ~ 0
+GND
+Text GLabel 1400 2050 0    50   Input ~ 0
+GND
+Text GLabel 1400 1950 0    50   Input ~ 0
+GND
+Text GLabel 5600 1000 1    50   Input ~ 0
+COL0
+Text GLabel 5100 1600 0    50   Input ~ 0
+ROW0
+Text GLabel 5100 2150 0    50   Input ~ 0
+ROW1
+Text GLabel 5100 2700 0    50   Input ~ 0
+ROW2
+Text GLabel 5100 3250 0    50   Input ~ 0
+ROW3
+Text GLabel 5100 3800 0    50   Input ~ 0
+ROW4
+Text GLabel 5100 4350 0    50   Input ~ 0
+ROW5
+Text GLabel 5100 4900 0    50   Input ~ 0
+ROW6
+Text GLabel 5100 5450 0    50   Input ~ 0
+ROW7
+Text GLabel 1400 2450 0    50   Input ~ 0
+COL0
+Text GLabel 2800 2750 2    50   Input ~ 0
+ROW0
+Text GLabel 2800 2650 2    50   Input ~ 0
+ROW1
+Text GLabel 2800 2550 2    50   Input ~ 0
+ROW2
+Text GLabel 1400 2550 0    50   Input ~ 0
+ROW3
+Text GLabel 1400 2650 0    50   Input ~ 0
+ROW4
+Text GLabel 1400 2750 0    50   Input ~ 0
+ROW5
+Text GLabel 1400 2850 0    50   Input ~ 0
+ROW6
+Text GLabel 2800 2850 2    50   Input ~ 0
+ROW7
+$Comp
+L Connector_Generic:Conn_02x01 J1
+U 1 1 5E89FCAF
+P 3350 1950
+F 0 "J1" V 3354 2030 50  0000 L CNN
+F 1 "Conn_02x01" V 3445 2030 50  0000 L CNN
+F 2 "Connector_Wire:SolderWirePad_1x02_P3.81mm_Drill0.8mm" H 3350 1950 50  0001 C CNN
+F 3 "~" H 3350 1950 50  0001 C CNN
+	1    3350 1950
+	0    1    1    0   
+$EndComp
+Text GLabel 3350 1750 1    50   Input ~ 0
+GND
+Text GLabel 2800 1950 2    50   Input ~ 0
+RST
+Text GLabel 3350 2250 3    50   Input ~ 0
+RST
+$EndSCHEMATC
