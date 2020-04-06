@@ -2,4 +2,5 @@
   (lib (name MX_Alps_Hybrid)(type Legacy)(uri "D:/Programs/GitHub/Downloaded Libraries/MX_Alps_Hybrid/Schematic Library/MX_Alps_Hybrid.lib")(options "")(descr ""))
   (lib (name promicro)(type Legacy)(uri "D:/Programs/GitHub/Downloaded Libraries/ProMicroKiCad/promicro_library/promicro.lib")(options "")(descr ""))
   (lib (name random-keyboard-parts)(type Legacy)(uri "D:/Programs/GitHub/Downloaded Libraries/random-keyboard-parts.pretty/Schematic Library/random-keyboard-parts.lib")(options "")(descr ""))
+  (lib (name OctoPad-rescue)(type Legacy)(uri ${KIPRJMOD}/OctoPad-rescue.lib)(options "")(descr ""))
 )
